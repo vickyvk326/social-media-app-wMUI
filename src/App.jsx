@@ -3,7 +3,7 @@ import "./app.scss";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed";
-import RIghtsidebar from "./components/RIghtsidebar";
+import Rightsidebar from "./components/Rightsidebar";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
       >
         <Sidebar />
         <Feed />
-        <RIghtsidebar />
+        <Rightsidebar />
       </Stack>
     </Box>
   );
