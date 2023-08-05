@@ -23,12 +23,9 @@ const Rightbar = () => {
       </Box>
       <Box mt={1} mb={1}>
         <AvatarGroup max={7}>
-          <Avatar
-            alt="Remy Sharp"
-            src="vickyvk326.github.io\components\assets\hari.jpg"
-          />
-          <Avatar alt="Travis Howard" src="src\components\assets\guna.jpg" />
-          <Avatar alt="Cindy Baker" src="src\components\assets\ini.jpg" />
+          <Avatar alt="Remy Sharp" src="\src\components\assets\hari.jpg" />
+          <Avatar alt="Travis Howard" src="\src\components\assets\guna.jpg" />
+          <Avatar alt="Cindy Baker" src="\src\components\assets\ini.jpg" />
           <Avatar alt="Agnes Walker" src="src\components\assets\vicky.jpg" />
           <Avatar
             alt="Trevor Henderson"
