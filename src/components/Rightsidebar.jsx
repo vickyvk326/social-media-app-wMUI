@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import Rightbar from "./righSidebar/Rightbar";
 
-const RIghtsidebar = () => {
+const Rightsidebar = () => {
   return (
     <Box
       sx={{
@@ -17,4 +17,4 @@ const RIghtsidebar = () => {
   );
 };
 
-export default RIghtsidebar;
+export default Rightsidebar;
