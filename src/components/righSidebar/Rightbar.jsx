@@ -23,16 +23,34 @@ const Rightbar = () => {
       </Box>
       <Box mt={1} mb={1}>
         <AvatarGroup max={7}>
-          <Avatar alt="Remy Sharp" src="\src\components\assets\hari.jpg" />
-          <Avatar alt="Travis Howard" src="\src\components\assets\guna.jpg" />
-          <Avatar alt="Cindy Baker" src="\src\components\assets\ini.jpg" />
-          <Avatar alt="Agnes Walker" src="src\components\assets\vicky.jpg" />
+          <Avatar
+            alt="Remy Sharp"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/873a9d9a75681c1ce6cd69bd016150fd.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=c373c23b53e4ee2c8fe7665225a0aa3c49b0c01979b53d87b18336630f6c0515"
+          />
+          <Avatar
+            alt="Travis Howard"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/05311d5f830fe19e4075a6798e1f3504.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=ed27110fef67f67e3479059244880c91f3d94e41baf6a762f91049087ada6727"
+          />
+          <Avatar
+            alt="Cindy Baker"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/89458b94cc36e50ef8c0462f4bd96355.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101022Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=1ba1726a0b9cffc8801f0770a75b290e0ec08793554d87af2ec164c107592b1a"
+          />
+          <Avatar
+            alt="Agnes Walker"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/b258ec0beb5a9ae6ba6e21eb682e1c46.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=9983adb781ad4221d8f873b2dd52673e8632575e0f844a4801f4788eb93445da"
+          />
           <Avatar
             alt="Trevor Henderson"
-            src="src\components\assets\kishore.jpg"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/f13eb0fdaf2bb6ccdd305fa6f1362754.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=e704da28a5ffa3d6ce66bb9164eb8b0560477482faea4ff8292c9e0fd1243f40"
           />
-          <Avatar alt="Remy Sharp" src="src\components\assets\buvi.jpg" />
-          <Avatar alt="Travis Howard" src="src\components\assets\kishore.jpg" />
+          <Avatar
+            alt="Remy Sharp"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/4a33777f0eb380e68765683706ab0c61.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101534Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=e69a92daa6adddb991b1b79cea42e5f4e6d47e9f41fb1a8826a80dedea545e05"
+          />
+          <Avatar
+            alt="Travis Howard"
+            src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/4a33777f0eb380e68765683706ab0c61.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101534Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=e69a92daa6adddb991b1b79cea42e5f4e6d47e9f41fb1a8826a80dedea545e05"
+          />
           <Avatar alt="Cindy Baker" src="src\components\assets\kishore.jpg" />
           <Avatar alt="Agnes Walker" src="src\components\assets\kishore.jpg" />
         </AvatarGroup>
@@ -89,7 +107,10 @@ const Rightbar = () => {
         >
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Remy Sharp" src="src\components\assets\hari.jpg" />
+              <Avatar
+                alt="Remy Sharp"
+                src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/4a33777f0eb380e68765683706ab0c61.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101534Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=e69a92daa6adddb991b1b79cea42e5f4e6d47e9f41fb1a8826a80dedea545e05"
+              />
             </ListItemAvatar>
             <ListItemText
               primary="Hi bro!❤"
@@ -111,7 +132,10 @@ const Rightbar = () => {
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Cindy Baker" src="src\components\assets\ini.jpg" />
+              <Avatar
+                alt="Cindy Baker"
+                src="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/873a9d9a75681c1ce6cd69bd016150fd.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20230805%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230805T101023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=c373c23b53e4ee2c8fe7665225a0aa3c49b0c01979b53d87b18336630f6c0515"
+              />
             </ListItemAvatar>
             <ListItemText
               primary="Enna bro pannuringa?"
